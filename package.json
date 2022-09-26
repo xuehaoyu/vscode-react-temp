@@ -3,7 +3,7 @@
   "displayName": "vscode-react-temp",
   "description": "快速生成react组件模板的插件",
   "version": "0.0.1",
-  "publisher": "1169732429",
+  "publisher": "xuehaoyu",
   "engines": {
     "vscode": "^1.71.0"
   },

@@ -3,6 +3,7 @@
   "displayName": "vscode-react-temp",
   "description": "快速生成react组件模板的插件",
   "version": "0.0.1",
+  "author": "xuehaoyu",
   "publisher": "xuehaoyu",
   "engines": {
     "vscode": "^1.71.0"
@@ -10,6 +11,10 @@
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xuehaoyu/vscode-react-temp.git"
+  },
   "activationEvents": [
     "onCommand:vscode-react-temp.helloWorld"
   ],

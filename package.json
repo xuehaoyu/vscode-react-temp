@@ -5,6 +5,7 @@
   "version": "0.0.2",
   "author": "xuehaoyu",
   "publisher": "xuehaoyu",
+  "icon": "images/logo.jpg",
   "engines": {
     "vscode": "^1.71.0"
   },

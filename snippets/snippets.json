@@ -1,10 +1,22 @@
 {
-  "reactClassCompoment": {
+  "reactClassComponent": {
     "prefix": "rcc",
     "body": [
       "import React, { Component } from 'react'",
       "",
-      "class ${1:${TM_FILENAME_BASE}} extends Component {",
+      "interface IProps {",
+      "}",
+      "",
+      "interface IState {",
+      "}",
+      "",
+      "class ${1:${TM_FILENAME_BASE}} extends React.Component<IProps, IState> {",
+      "  constructor (props: any) {",
+      "    super(props)",
+      "    this.state = {",
+      "    }",
+      "  }",
+      "",
       "  render () {",
       "    return (",
       "      <div>",
@@ -17,9 +29,9 @@
       "export default ${1:${TM_FILENAME_BASE}}",
       ""
     ],
-    "description": "Creates a React component class with ES7 module system"
+    "description": "创建一个类组件(TS)"
   },
-  "reactFunctionalComponent": {
+  "reactFunctionComponent": {
     "prefix": "rfc",
     "body": [
       "import React, { useEffect, useState } from 'react'",
@@ -45,6 +57,6 @@
       "export default ${1:${TM_FILENAME_BASE}}",
       ""
     ],
-    "description": "Creates a React Functional Component with ES7 module system"
+    "description": "创建一个函数组件(TS)"
   }
 }

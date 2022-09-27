@@ -5,5 +5,5 @@
 使用vscode的代码片段快速生成
 
 ## 快捷命令
-rcc react类组件
-rfc react函数组件
+rcc react类组件(TS)
+rfc react函数组件(TS)
